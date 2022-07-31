@@ -43,6 +43,11 @@ public class Main {
 
         //Java arithmetic operators
         float div = (float) 10 / (float) 3;
-        System.out.println(div);
+        //System.out.println(div);
+
+        //Java increment operators
+        int y = 3;
+        y++;
+        System.out.println(y);
     }
 }
