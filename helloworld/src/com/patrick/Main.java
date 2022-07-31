@@ -22,6 +22,10 @@ public class Main {
         Point point1 = new Point(1,2);
         Point point2 = point1;
         point1.x =10;
-        System.out.println(point2);
+        //Strings
+        //String hello = new String("Hello World"); This actually works but there is shorthand for doing this
+        String hello = "Hello World!" + "!!"; //This is valid in java
+        String replaced = hello.replace("World", "Patrick");
+        System.out.println(replaced);
     }
 }
