@@ -58,8 +58,8 @@ public class Main {
         //System.out.println(sum);
 
         //Explicit type casting
-        String num3 = "1";
-        int sum3 = Integer.parseInt(num3) + 4;
+        String num3 = "1.1";
+        int sum3 = (int) Double.parseDouble(num3) + 4;
         System.out.println(sum3);
     }
 }
