@@ -3,6 +3,7 @@ import java.awt.*;
 import java.text.NumberFormat;
 import  java.util.Date;
 import java.util.Locale;
+import java.util.Scanner;
 
 public class Main {
     public static void main(String[] args){
@@ -82,5 +83,15 @@ public class Main {
         String percentage = NumberFormat.getPercentInstance().format(0.85);
         //System.out.println(currency);
         //System.out.println(percentage);
+
+        //Reading data from user
+
+        Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter your age: ");
+        int yourAge = scanner.nextInt();
+        System.out.print("Enter your name: ");
+        String yourName = scanner.next();
+        System.out.println("Your name is " + yourName + " and you are " + yourAge + " years old.") ;
+
     }
 }
