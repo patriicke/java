@@ -39,6 +39,10 @@ public class Main {
 
         //Java constants
         final  float PI = 3.14F;
-        System.out.println(PI);
+        //System.out.println(PI);
+
+        //Java arithmetic operators
+        float div = (float) 10 / (float) 3;
+        System.out.println(div);
     }
 }
