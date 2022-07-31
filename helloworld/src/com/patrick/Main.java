@@ -1,4 +1,5 @@
 package com.patrick;
+import  java.util.Date;
 public class Main {
     public static void main(String[] args){
         //Bytes
@@ -14,6 +15,8 @@ public class Main {
         String message = "Hello Patrick hope that tomorrow you will come to work";
         //Booleans
         boolean isTrue = true;
-        System.out.println(isTrue);
+        //Reference data types in java
+        Date now = new Date();
+        System.out.println(now);
     }
 }
