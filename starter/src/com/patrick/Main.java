@@ -48,6 +48,18 @@ public class Main {
         //Java increment operators
         int y = 3;
         y++;
-        System.out.println(y);
+        //System.out.println(y);
+
+        //Type casting and type conversion
+
+        //Implicit type casting
+        double num1 = 4.5;
+        int sum = (int) num1 + 5;
+        //System.out.println(sum);
+
+        //Explicit type casting
+        String num3 = "1";
+        int sum3 = Integer.parseInt(num3) + 4;
+        System.out.println(sum3);
     }
 }
