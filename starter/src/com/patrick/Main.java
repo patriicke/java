@@ -68,7 +68,13 @@ public class Main {
         int floorNumber = (int) Math.floor(1.2);
         int roundNumber = (int) Math.round(1.2);
 
-        System.out.println(roundNumber);
+        //System.out.println(roundNumber);
 
+        //Generating random number between 0 and 100
+
+
+        int randomNumber =  (int) (Math.random() * 100);
+
+        System.out.println(randomNumber);
     }
 }
