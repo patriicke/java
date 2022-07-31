@@ -35,6 +35,10 @@ public class Main {
 
         //int[][] numbersMulti = new int[10][3];This is multi dimensional arrays
         int[][] numbersMulti = {{1,2,3}};
-        System.out.println(Arrays.deepToString(numbersMulti));
+        //System.out.println(Arrays.deepToString(numbersMulti));
+
+        //Java constants
+        final  float PI = 3.14F;
+        System.out.println(PI);
     }
 }
