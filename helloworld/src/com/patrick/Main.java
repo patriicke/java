@@ -29,6 +29,12 @@ public class Main {
         String replaced = hello.replace("World", "Patrick");
         //Arrays in java
         int[] numbers = {1,2,3,4,5};
-        System.out.println(Arrays.toString(numbers));
+        //int[] numbers = new int[5] This is another way of dealing with arrays;
+        //System.out.println(Arrays.toString(numbers));
+        //Multi-dimensional arrays in java
+
+        //int[][] numbersMulti = new int[10][3];This is multi dimensional arrays
+        int[][] numbersMulti = {{1,2,3}};
+        System.out.println(Arrays.deepToString(numbersMulti));
     }
 }
