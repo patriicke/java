@@ -60,6 +60,15 @@ public class Main {
         //Explicit type casting
         String num3 = "1.1";
         int sum3 = (int) Double.parseDouble(num3) + 4;
-        System.out.println(sum3);
+        //System.out.println(sum3);
+
+        //Java Math class
+
+        int ceilNumber = (int) Math.ceil(1.2);
+        int floorNumber = (int) Math.floor(1.2);
+        int roundNumber = (int) Math.round(1.2);
+
+        System.out.println(roundNumber);
+
     }
 }
