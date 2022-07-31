@@ -1,4 +1,5 @@
 package com.patrick;
+import java.awt.*;
 import  java.util.Date;
 public class Main {
     public static void main(String[] args){
@@ -17,6 +18,10 @@ public class Main {
         boolean isTrue = true;
         //Reference data types in java
         Date now = new Date();
-        System.out.println(now);
+        //Differentiating primitive types and reference types
+        Point point1 = new Point(1,2);
+        Point point2 = point1;
+        point1.x =10;
+        System.out.println(point2);
     }
 }
