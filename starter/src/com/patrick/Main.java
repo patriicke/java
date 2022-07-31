@@ -1,7 +1,9 @@
 package com.patrick;
 import java.awt.*;
-import java.util.Arrays;
+import java.text.NumberFormat;
 import  java.util.Date;
+import java.util.Locale;
+
 public class Main {
     public static void main(String[] args){
         //Bytes
@@ -72,9 +74,13 @@ public class Main {
 
         //Generating random number between 0 and 100
 
-
         int randomNumber =  (int) (Math.random() * 100);
+        //System.out.println(randomNumber);
 
-        System.out.println(randomNumber);
+        //Formatting numbers
+        String currency = NumberFormat.getCurrencyInstance().format(1234576.67);
+        String percentage = NumberFormat.getPercentInstance().format(0.85);
+        //System.out.println(currency);
+        //System.out.println(percentage);
     }
 }
