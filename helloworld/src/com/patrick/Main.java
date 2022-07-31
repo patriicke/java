@@ -1,5 +1,6 @@
 package com.patrick;
 import java.awt.*;
+import java.util.Arrays;
 import  java.util.Date;
 public class Main {
     public static void main(String[] args){
@@ -26,6 +27,8 @@ public class Main {
         //String hello = new String("Hello World"); This actually works but there is shorthand for doing this
         String hello = "Hello World!" + "!!"; //This is valid in java
         String replaced = hello.replace("World", "Patrick");
-        System.out.println(replaced);
+        //Arrays in java
+        int[] numbers = {1,2,3,4,5};
+        System.out.println(Arrays.toString(numbers));
     }
 }
