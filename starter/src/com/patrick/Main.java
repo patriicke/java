@@ -69,11 +69,40 @@ public class Main {
         //System.out.println(currency);
         //System.out.println(percentage);
         //Reading data from user
-        Scanner scanner = new Scanner(System.in);
+        /*Scanner scanner = new Scanner(System.in);
         //System.out.print("Enter your age: ");
         //int yourAge = scanner.nextInt();
         System.out.print("Enter your name: ");
         String yourName = scanner.nextLine();
-        System.out.println("Your name is " + yourName + " and you are "  + " years old.");
+        //System.out.println("Your name is " + yourName + " and you are "  + " years old.");
+*/
+        //Flow control
+        int t = 1;
+        int g = 1;
+        //System.out.print(t == g);
+
+        //FizzBuzz
+        /*Scanner scanner = new Scanner(System.in);
+        System.out.print("Enter a number: ");
+        int enteredNumber = scanner.nextInt();
+        if(enteredNumber%3==0 && enteredNumber%5==0)
+            System.out.println("FizzBuzz");
+        else if(enteredNumber%5 ==0 )
+            System.out.println("Fizz");
+        else if (enteredNumber%3 ==0)
+            System.out.println("Buzz");
+        else System.out.println(enteredNumber);
+        */
+
+        //Iterations
+        //for and while loop like in other programming languages
+
+        //Type exit to get out of the loop
+        String exit = "";
+        while (!exit.equals("exit")){
+            Scanner scanner = new Scanner(System.in);
+            System.out.print("Enter text: ");
+            exit = scanner.nextLine().trim();
+        }
     }
 }
