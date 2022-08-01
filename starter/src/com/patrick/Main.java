@@ -2,9 +2,7 @@ package com.patrick;
 import java.awt.*;
 import java.text.NumberFormat;
 import  java.util.Date;
-import java.util.Locale;
 import java.util.Scanner;
-
 public class Main {
     public static void main(String[] args){
         //Bytes
@@ -35,63 +33,47 @@ public class Main {
         //int[] numbers = new int[5] This is another way of dealing with arrays;
         //System.out.println(Arrays.toString(numbers));
         //Multi-dimensional arrays in java
-
         //int[][] numbersMulti = new int[10][3];This is multi dimensional arrays
         int[][] numbersMulti = {{1,2,3}};
         //System.out.println(Arrays.deepToString(numbersMulti));
-
         //Java constants
         final  float PI = 3.14F;
         //System.out.println(PI);
-
         //Java arithmetic operators
         float div = (float) 10 / (float) 3;
         //System.out.println(div);
-
         //Java increment operators
         int y = 3;
         y++;
         //System.out.println(y);
-
         //Type casting and type conversion
-
         //Implicit type casting
         double num1 = 4.5;
         int sum = (int) num1 + 5;
         //System.out.println(sum);
-
         //Explicit type casting
         String num3 = "1.1";
         int sum3 = (int) Double.parseDouble(num3) + 4;
         //System.out.println(sum3);
-
         //Java Math class
-
         int ceilNumber = (int) Math.ceil(1.2);
         int floorNumber = (int) Math.floor(1.2);
         int roundNumber = (int) Math.round(1.2);
-
         //System.out.println(roundNumber);
-
         //Generating random number between 0 and 100
-
         int randomNumber =  (int) (Math.random() * 100);
         //System.out.println(randomNumber);
-
         //Formatting numbers
         String currency = NumberFormat.getCurrencyInstance().format(1234576.67);
         String percentage = NumberFormat.getPercentInstance().format(0.85);
         //System.out.println(currency);
         //System.out.println(percentage);
-
         //Reading data from user
-
         Scanner scanner = new Scanner(System.in);
-        System.out.print("Enter your age: ");
-        int yourAge = scanner.nextInt();
+        //System.out.print("Enter your age: ");
+        //int yourAge = scanner.nextInt();
         System.out.print("Enter your name: ");
-        String yourName = scanner.next();
-        System.out.println("Your name is " + yourName + " and you are " + yourAge + " years old.") ;
-
+        String yourName = scanner.nextLine();
+        System.out.println("Your name is " + yourName + " and you are "  + " years old.");
     }
 }
