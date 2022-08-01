@@ -2,7 +2,10 @@ package com.patrick;
 import java.awt.*;
 import java.text.NumberFormat;
 import  java.util.Date;
+import java.util.Locale;
 import java.util.Scanner;
+import java.util.jar.JarOutputStream;
+
 public class Main {
     public static void main(String[] args){
         //Bytes
@@ -98,11 +101,12 @@ public class Main {
         //for and while loop like in other programming languages
 
         //Type exit to get out of the loop
+        Scanner scanner = new Scanner(System.in);
         String exit = "";
         while (!exit.equals("exit")){
-            Scanner scanner = new Scanner(System.in);
             System.out.print("Enter text: ");
-            exit = scanner.nextLine().trim();
+            exit = scanner.nextLine().trim().toLowerCase();
+            System.out.println(exit);
         }
     }
 }
